@@ -1,109 +1,41 @@
-🌍 Tour Package Management System ✈️
-Overview 📋
-The Tour Package Management System is a secure, user-friendly platform designed to manage tour packages, bookings, and user queries. The system features role-based access, allowing different users to interact with the platform based on their roles:
+# 🌍 **Tour Package Management System** ✈️
 
-Admins can manage tour packages, user details, and oversee all activities.
+## Overview 📋
 
-Users can browse available packages and book trips.
+The **Tour Package Management System** streamlines **tour bookings**, **package management**, and **customer interactions**. It allows **admins** to add, update, and manage packages, while **users** can explore, book, and cancel tours. **Secure login**, **real-time updates**, and **payment integration** ensure a seamless experience for both agencies and travelers.
 
-Tour Managers can oversee bookings and manage their respective packages.
+## Features ✨
 
-Features ✨
-Role-based Access 🔒: Three different roles - Admin, User, and Tour Manager.
+- **Role-based Access** 🔒
+  - **Admins**: Manage packages, users, and more.
+  - **Users**: Browse available packages and book trips.
+  - **Tour Managers**: Oversee bookings and manage specific packages.
+  
+- **Package Management** 📦: Admins can **add**, **update**, **delete**, and **view** tour packages.
+- **Booking System** 🧳: Users can seamlessly browse and book available tour packages.
+- **User Management** 👤: Admins manage user profiles and queries.
 
-Admins manage packages, users, and more.
+## Technologies Used 🛠️
 
-Users can book trips easily.
+- **Backend**: Spring Boot, Spring JPA
+- **Database**: MySQL
+- **Frontend**: HTML, CSS, JavaScript
+- **Security**: Role-based access control (RBAC)
+- **Build**: Maven
 
-Tour Managers oversee bookings and manage specific packages.
+## Getting Started 🚀
 
-Package Management 📦: Admins can add, update, delete, and view tour packages.
+### Prerequisites
 
-Booking System 🧳: Users can seamlessly browse and book available tour packages.
+To run the project locally, ensure you have the following installed:
 
-User Management 👤: Admins manage user profiles and queries.
+- **Java 11** or later ☕
+- **Spring Boot**
+- **MySQL Database** 🗃️
+- **Maven** ⚙️
 
-Technologies Used 🛠️
-Backend: Spring Boot, Spring JPA
+### Setup 🔧
 
-Database: MySQL
-
-Frontend: HTML, CSS, JavaScript
-
-Security: Role-based access control (RBAC)
-
-Build: Maven
-
-Getting Started 🚀
-Prerequisites
-To run the project locally, you need to have the following installed:
-
-Java 11 or later ☕
-
-Spring Boot
-
-MySQL Database 🗃️
-
-Maven ⚙️
-
-Setup 🔧
-Clone the Repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/tour-package-management-system.git
-Set Up the MySQL Database:
-
-Create a new database in MySQL.
-
-Update the application.properties file with your database credentials:
-
-properties
-Copy
-Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/your-database-name
-spring.datasource.username=your-database-username
-spring.datasource.password=your-database-password
-Build the Project:
-
-bash
-Copy
-Edit
-mvn clean install
-Run the Application:
-
-bash
-Copy
-Edit
-mvn spring-boot:run
-Access the Application: Open a browser and go to: http://localhost:8080
-
-Database Structure 🗂️
-The system uses a MySQL database with the following tables:
-
-Users: Stores user information and roles.
-
-Packages: Stores available tour packages.
-
-Bookings: Tracks bookings made by users.
-
-Usage 💻
-Admins: Log in with admin credentials to manage users, packages, and bookings.
-
-Users: Create an account, browse available packages, and book trips.
-
-Tour Managers: Log in to manage bookings and oversee their respective packages.
-
-Contributing 🤝
-Fork the repository.
-
-Create a new branch (git checkout -b feature-name).
-
-Make your changes.
-
-Commit your changes (git commit -am 'Add new feature').
-
-Push to the branch (git push origin feature-name).
-
-Create a pull request.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/tour-package-management-system.git
